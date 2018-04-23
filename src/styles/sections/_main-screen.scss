@@ -19,6 +19,9 @@
         align-items: center; 
         justify-content: center;
         // padding-top: 300px;
+        @media all and (max-width: 750px) {
+            margin-bottom: 20px;
+        }
 
     }
     &__contdownTitle{
@@ -53,7 +56,7 @@
         animation-delay: 0;
         animation-play-state: paused;
         animation-fill-mode: forwards;
-        @-webkit-keyframes spin {
+        @keyframes spin {
             0% {
                 -moz-transform: rotate(0deg);
                 -webkit-transform: rotate(0deg);
@@ -96,11 +99,10 @@
         }
         @media all and (max-width: 750px) {
     
-            // margin-left: 8px;
-            // font-size: 18px;
+            top: 352px;
             // top: 330px;
         }
-        @media all and (max-width: 550px) {
+        @media all and (max-width: 570px) {
         
             display: none;
         }
@@ -145,7 +147,7 @@
 
 .main-timer-bottom {
     margin: 0 auto;
-    max-width: 274px;
+    max-width: 248px;
     display: flex;
     justify-content: space-between;
 

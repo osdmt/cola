@@ -1,0 +1,115 @@
+.message  {
+    position: relative;
+    margin-bottom: 60px;
+    &__title {
+        font-weight: bold;
+        font-size: 26px;
+        background-color: #fff;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 0 8px;
+        white-space: nowrap;
+    }
+    &__container {
+        
+    }
+    &__wrapper {
+        padding: 80px 100px;
+        border: 1px solid #cacaca;
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start;
+        @media all and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        @media all and (max-width: 750px) {
+            padding: 40px 50px;
+        }
+        @media all and (max-width: 570px) {
+            padding: 20px 30px;
+        }
+    }
+    &__item {
+        // width: 33%;
+        margin: 12px 0;
+        display: block;
+        @media all and (max-width: 1200px) {
+            width: 70%;
+            // min-width: 100%;
+        }
+        @media all and (max-width: 850px) {
+            width: 100%;
+            // min-width: 100%;
+        }
+    }
+    &__name {
+        width: 100%;
+        min-width: 260px;
+        padding: 15px 25px;
+        border-radius: 25px;
+        outline: none;
+        border: solid 1px #cacaca;
+        @media all and (max-width: 1200px) {
+            width: 70%;
+            min-width: 100%;
+        }
+    }
+    &__text {
+        width: 100%;
+        min-height: 100px;
+        min-width: 370px;
+        padding: 15px 25px;
+        border-radius: 25px;
+        outline: none;
+        border: solid 1px #cacaca;
+        // user-select: none;
+        // pointer-events: none;
+        resize: none;
+        @media all and (max-width: 1200px) {
+            width: 70%;
+            min-width: 100%;
+        }
+        
+    
+    }
+    &__button {
+        font-weight: bold;
+        background-color: red;
+        outline: none;
+        border-radius: 25px;
+        min-width: 260px;
+        padding: 16px 25px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+        @media all and (max-width: 1200px) {
+            width: 70%;
+            // min-width: 100%;
+        }
+        @media all and (max-width: 850px) {
+            // width: 70%;
+            min-width: 100%;
+        }
+    }
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+

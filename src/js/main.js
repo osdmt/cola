@@ -3,6 +3,8 @@ $(document).ready(function () {
     btn.click(function() {
     $(".header__playImage").toggleClass("header__playImage_active");
     $(".mainScreen__drinks").toggleClass("mainScreen__drinks_active")
+    $(".header__logoAnimation").toggleClass("header__logoAnimation_active")
+    $(".header__logoImage").toggleClass("header__logoImage_disable")
     $(".header__stopImage").toggleClass("header__stopImage_active");
       return false;
     });

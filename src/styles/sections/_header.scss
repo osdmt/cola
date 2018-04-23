@@ -108,6 +108,8 @@
         }
         @media all and (max-width: 750px) {
             width: 100%;
+            color: $red;
+            font-weight: bold;
         }
     }
 
@@ -133,6 +135,19 @@
     &__logoImage {
         height: 100px;
         width: 30px;
+        &_disable {
+            display: none;
+        }
+
+        
+    }
+    &__logoAnimation {
+        display: none;
+        height: 100px;
+        width: 30px;
+        &_active {
+            display: block;
+        }
         
     }
     &__volume {

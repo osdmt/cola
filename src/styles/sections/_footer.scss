@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    background-color: red;
+   
+    &__container {
+        padding: 16px ;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 940px;
+        @media all and (max-width: 440px) {
+            flex-direction: column;
+            
+        }
+    }
+    &__textWrapper {
+        text-align: right;
+        font-size: 14px;
+        color: #fff;
+        line-height: 1.5;
+        @media all and (max-width: 440px) {
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
